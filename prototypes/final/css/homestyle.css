@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #073755;
+  width: 980px;
+  height: 700px;
+	overflow: hidden;
+	color: white;
+	font-family: "Avenir";
+}
+
+#img1 {position:absolute;
+
+   z-index: -1;}
+
+#img2{
+	position: absolute;
+		margin-top: 70px;
+	margin-left:50px;
+	z-index: 0;
+
+}
+
+
+#img3{
+	position: absolute;
+
+	margin-top: 90px;
+	margin-left:50px;
+	z-index: 1
+}
+
+#adventure {
+	position: absolute;
+
+	margin-top: 300px;
+	margin-left:400px;
+	z-index: 2;
+color: #073755; 
+	text-decoration: none;
+	font-size: 20;
+}
+
+#greeting {	position: absolute;
+
+	margin-top: 200px;
+	margin-left:300px;
+	
+}
+
